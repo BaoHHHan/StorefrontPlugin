@@ -7,7 +7,6 @@
 ## 📦 主要功能
 
 * **获取三位国家码（ISO 3166-1 alpha-3）**：例如 `"USA"`, `"CHN"`, `"GBR"`。
-* **获取两位国家码（ISO 3166-1 alpha-2）**：例如 `"US"`, `"CN"`, `"GB"`，通过内置映射表一键转换。
 * **纯 Objective-C 实现**：无需额外引入 Swift，兼容性佳。
 * **自动化 Xcode 后处理**：导入插件后，Build 时自动将 `StoreKit.framework` 添加到 Xcode 工程，无需手动操作。
 * **C# 层友好 API**：调用单个静态方法即可获取区域码，简洁直观。
@@ -72,8 +71,7 @@ public class Demo : MonoBehaviour
 
 | 方法名                                | 返回值示例   | 说明                                    |
 | ---------------------------------- | ------- | ------------------------------------- |
-| `GetStorefrontCountryCodeAlpha3()` | `"USA"` | 获取三位区号（ISO 3166-1 alpha-3）            |
-| `GetStorefrontCountryCodeAlpha2()` | `"US"`  | 获取两位区号（ISO 3166-1 alpha-2），若映射不存在返回空串 |
+| `GetStorefrontCountryCode()` | `"USA"` | 获取三位区号（ISO 3166-1 alpha-3）            |
 
 ---
 
