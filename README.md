@@ -1,6 +1,6 @@
 # StorefrontPlugin for Unity 🚀
 
-**StorefrontPlugin** 是一个简单易用的 Unity 插件，让您在 iOS 平台上轻松获取用户当前登陆在 App Store 的 Apple ID 的国家/地区（即商店区号）。它基于 StoreKit 1.x 的 `SKStorefront` 接口，支持 iOS 16.0+，并提供了 Unity C# 层的友好封装，让您无需编写任何 Swift 代码即可在游戏内获取两位或三位国家/地区码。
+**StorefrontPlugin** 是一个简单易用的 Unity 插件，让您在 iOS 平台上轻松获取用户当前登陆在 AppStore 的 AppleID 的国家/地区（即商店区号）。它基于 StoreKit 1.x 的 `SKStorefront` 接口，支持 iOS 16.0+，并提供了 Unity C# 层的友好封装，让您无需编写任何 Swift 代码即可在游戏内获取两位或三位国家/地区码。
 
 ---
 
