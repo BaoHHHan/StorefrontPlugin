@@ -45,12 +45,8 @@ public class Demo : MonoBehaviour
     void Start()
     {
         // 获取三位国家码
-        string alpha3 = StorefrontUtil.GetStorefrontCountryCodeAlpha3();
+        string alpha3 = StorefrontUtil.GetStorefrontCountryCode();
         Debug.Log($"App Store 三位码：{alpha3}");
-
-        // 获取两位国家码
-        string alpha2 = StorefrontUtil.GetStorefrontCountryCodeAlpha2();
-        Debug.Log($"App Store 两位码：{alpha2}");
     }
 }
 ```
