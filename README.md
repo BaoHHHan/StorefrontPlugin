@@ -78,7 +78,6 @@ public class Demo : MonoBehaviour
 ## 🛠️ 原理与实现
 
 1. **ObjC++ 接口**：`StorefrontPlugin.mm` 中调用 `SKPaymentQueue.defaultQueue.storefront.countryCode` 获取三位码。
-2. **映射表转换**：内置常用国家映射字典，将 alpha-3 转为 alpha-2。
 3. **Xcode 后处理**：`iOSPostProcess.cs` 脚本自动将 `StoreKit.framework` 添加到 Xcode 工程。
 4. **C# DllImport**：通过 `Marshal` 将 C 端字符串转换为 C# 字符串。
 
